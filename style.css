@@ -1,0 +1,151 @@
+body {
+    /* background-color: black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.logo {
+    width: 192px;
+}
+
+.container ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding-top: 20px;
+    background-color: white;
+    /* height: 80px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    padding: 0px 5px;
+}
+
+icon-lang img {
+    width: 23px;
+    height: 23px;
+}
+
+.download {
+    font-family: Open Sans, Arial, sans-serif;
+    gap: 40px;
+    padding: 45px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.l1 {
+    font-size: 53px;
+}
+
+div p {
+    max-width: 50vw;
+    line-height: 27px;
+}
+
+.button1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: #00b6d1;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ver1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.big-icon {
+    height: 65px;
+}
+
+.text2 {
+    font-weight: 100px;
+    padding-top: 2px;
+}
+
+.bigb{
+    max-width: 70%;
+    margin: auto;
+}
+
+.gridcon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+   
+}
+
+.items {
+    background-color: #f9f9f9;
+    font-weight: 1000px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #00b6d1;
+    padding: 8px 15px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 10px 5px;
+}
+.eng{
+    margin-bottom: 47px;
+}
+.items-lang{
+    font-weight: 600px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.lang-in-eng{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+div button:nth-child(4) {
+    background-color: #5cb85c;
+}
